@@ -1,0 +1,4 @@
+body(ng-app="Recog" ng-controller="RecogCtrl")
+	figure
+		div( ng-model="text")
+		i(class="fa fa-microphone" ng-class="{active: on}" ng-click="startStop()")

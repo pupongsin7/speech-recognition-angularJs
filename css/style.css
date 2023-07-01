@@ -1,0 +1,83 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+figure {
+  position: relative;
+  width: 375px;
+  margin: 90px auto;
+}
+figure textarea {
+  display: block;
+  width: 375px;
+  height: 122px;
+  font-family: 'Lato';
+  font-size: 22px;
+  resize: none;
+}
+.result {
+  padding: 1rem;
+  border: 1px solid #5fb3b3;
+  border-radius: .5rem;
+  text-align: center;
+}
+figure .fa {
+  position: absolute;
+  bottom: -40px;
+  right: -40px;
+  padding: 14px 20px;
+  background: dodgerblue;
+  color: white;
+  border-radius: 100%;
+  font-size: 33px;
+  cursor: pointer;
+  
+}
+.hidden{
+  display:none;
+}
+figure .fa.active {
+  background: red;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: center;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  font-size : 50px;
+  padding: 50px 16px;
+  text-decoration: none;
+}
+.score{
+  display: block;
+  color: bla;
+  text-align: center;
+  font-size : 24px;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: left;
+}
+.level{
+  display: block;
+  color: bla;
+  text-align: center;
+  font-size : 24px;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: right;
+
+}
+
+.swal2-popup {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size : 10px;
+}
+
